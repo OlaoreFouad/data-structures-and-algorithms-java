@@ -1,4 +1,4 @@
-package dev.olaore;
+package dev.olaore.bubble_sort;
 
 public class BubbleSortDescending {
 

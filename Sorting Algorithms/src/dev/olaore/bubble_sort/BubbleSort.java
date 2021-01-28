@@ -1,4 +1,4 @@
-package dev.olaore;
+package dev.olaore.bubble_sort;
 
 // 1. loop through each element, setting the lastUnsortedIndex to the last index of the array
 // 2. loop from the start index to the last unsorted index swapping smaller numbers for larger ones along the way
