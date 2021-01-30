@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="00feb518-4991-44f9-aa85-4dd6e25c0609" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/olaore/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/olaore/bubble_sort/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dev/olaore/BubbleSortDescending.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/olaore/bubble_sort/BubbleSortDescending.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,28 +14,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dev/olaore/bubble_sort/BubbleSort.java">
+        <entry file="file://$PROJECT_DIR$/src/dev/olaore/selection_sort/SelectionSortReview.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="57" lean-forward="true" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dev/olaore/bubble_sort/BubbleSortDescending.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="115">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/dev/olaore/selection_sort/SelectionSort.java">
+        <entry file="file://$PROJECT_DIR$/src/dev/olaore/selection_sort/SelectionSortDescending.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+            <state relative-caret-position="128">
+              <caret line="10" column="48" lean-forward="true" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -61,6 +50,8 @@
         <option value="$PROJECT_DIR$/src/dev/olaore/BubbleSort.java" />
         <option value="$PROJECT_DIR$/src/dev/olaore/BubbleSortDescending.java" />
         <option value="$PROJECT_DIR$/src/dev/olaore/selection_sort/SelectionSort.java" />
+        <option value="$PROJECT_DIR$/src/dev/olaore/selection_sort/SelectionSortReview.java" />
+        <option value="$PROJECT_DIR$/src/dev/olaore/selection_sort/SelectionSortDescending.java" />
       </list>
     </option>
   </component>
@@ -70,15 +61,15 @@
     <option name="width" value="1382" />
     <option name="height" value="784" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Course" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -97,14 +88,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="olaore" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Sorting Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sorting Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="olaore" type="462c0819:PsiDirectoryNode" />
+              <item name="selection_sort" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Course" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1611820416203" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1612033391034" />
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RunDashboard">
@@ -119,7 +119,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SelectionSort">
+  <component name="RunManager" selected="Application.SelectionSortDescending">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dev.olaore.bubble_sort.BubbleSort" />
       <module name="Sorting Algorithms" />
@@ -146,16 +146,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="dev.olaore.Main" />
-      <module name="Sorting Algorithms" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dev.olaore.selection_sort.SelectionSort" />
       <module name="Sorting Algorithms" />
@@ -169,14 +159,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SelectionSortDescending" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.olaore.selection_sort.SelectionSortDescending" />
+      <module name="Sorting Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.olaore.selection_sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectionSortReview" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.olaore.selection_sort.SelectionSortReview" />
+      <module name="Sorting Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.olaore.selection_sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.BubbleSort" />
       <item itemvalue="Application.BubbleSortDescending" />
       <item itemvalue="Application.SelectionSort" />
+      <item itemvalue="Application.SelectionSortReview" />
+      <item itemvalue="Application.SelectionSortDescending" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SelectionSortDescending" />
+        <item itemvalue="Application.SelectionSortReview" />
         <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.BubbleSortDescending" />
         <item itemvalue="Application.BubbleSort" />
@@ -209,7 +228,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23141892" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33783785" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -237,17 +256,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dev/olaore/bubble_sort/BubbleSort.java">
+    <entry file="file://$PROJECT_DIR$/src/dev/olaore/selection_sort/SelectionSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="57" lean-forward="true" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
+        <state relative-caret-position="363">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dev/olaore/selection_sort/SelectionSort.java">
+    <entry file="file://$PROJECT_DIR$/src/dev/olaore/bubble_sort/BubbleSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+        <state relative-caret-position="228">
+          <caret line="12" column="57" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dev/olaore/selection_sort/SelectionSortReview.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dev/olaore/selection_sort/SelectionSortDescending.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="10" column="48" lean-forward="true" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
         </state>
       </provider>
     </entry>
