@@ -1,3 +1,7 @@
 ## Bubble Sort
 
 _The bubble sort algorithm is a sorting algorithm that sorts items out by swapping smaller items for larger ones. It works by iterating through the items, checking for the larger and swapping them while **bubbling** the larger items to the end of the array. The time complexity for a bubble sort algorithm is O(n<sup>2</sup>), so it really isn't that efficient but it's a real fundamental. After each iteration, the largest item is bubbled to the end of the array, leaving the end of the array sorted - reducing the max unsorted index. Once the max unsorted index is 0, the array can be deemed to be sorted_
+
+## Selection Sort
+
+_The Selection sort algorithm works in a way similar to the bubble sort, it has the same time complexity but swapping is reduced and done once per inner iteration which automatically increases the chances of it performing better than bubble sort. It starts by assuming the first element in the array to be the highest, the last element in the array is termed the lastUnsortedIndex. If loops through each element and checks if the elements are larger than the first, with this, after the iteration, the largest index would be known at the end of the array. Once this is decided, we swap the element at the largest index with the element at the last unsorted index. With this, the element at the lastUnsortedIndex is now sorted having the largest element found during iteration. This effectively decreases the lastUnsortedIndex and after subsequent iterations, the array becomes completely sorted_
