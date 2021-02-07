@@ -14,19 +14,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dev/olaore/insertion_sort/InsertionSort.java">
+        <entry file="file://$PROJECT_DIR$/src/dev/olaore/algorithms_reviews/BubbleSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="285">
+              <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dev/olaore/algorithms_reviews/SelectionSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="608">
+              <caret line="32" column="19" lean-forward="true" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/dev/olaore/insertion_sort/InsertionSortReview.java">
+        <entry file="file://$PROJECT_DIR$/src/dev/olaore/algorithms_reviews/InsertionSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="456">
+              <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -54,6 +63,10 @@
         <option value="$PROJECT_DIR$/src/dev/olaore/selection_sort/SelectionSortDescending.java" />
         <option value="$PROJECT_DIR$/src/dev/olaore/insertion_sort/InsertionSort.java" />
         <option value="$PROJECT_DIR$/src/dev/olaore/insertion_sort/InsertionSortReview.java" />
+        <option value="$PROJECT_DIR$/src/dev/olaore/utils/Utils.java" />
+        <option value="$PROJECT_DIR$/src/dev/olaore/algorithms_reviews/BubbleSort.java" />
+        <option value="$PROJECT_DIR$/src/dev/olaore/algorithms_reviews/SelectionSort.java" />
+        <option value="$PROJECT_DIR$/src/dev/olaore/algorithms_reviews/InsertionSort.java" />
       </list>
     </option>
   </component>
@@ -71,7 +84,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Course" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -95,18 +109,17 @@
               <item name="Sorting Algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="olaore" type="462c0819:PsiDirectoryNode" />
-              <item name="insertion_sort" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms_reviews" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Course" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1612458373945" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1612709250116" />
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RunDashboard">
@@ -121,7 +134,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.InsertionSortReview">
+  <component name="RunManager" selected="Application.InsertionSort (1)">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.olaore.algorithms_reviews.BubbleSort" />
+      <module name="Sorting Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.olaore.algorithms_reviews.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InsertionSort (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.olaore.algorithms_reviews.InsertionSort" />
+      <module name="Sorting Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.olaore.algorithms_reviews.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dev.olaore.insertion_sort.InsertionSort" />
       <module name="Sorting Algorithms" />
@@ -149,37 +188,11 @@
       </method>
     </configuration>
     <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.olaore.selection_sort.SelectionSort" />
+      <option name="MAIN_CLASS_NAME" value="dev.olaore.algorithms_reviews.SelectionSort" />
       <module name="Sorting Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.olaore.selection_sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SelectionSortDescending" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.olaore.selection_sort.SelectionSortDescending" />
-      <module name="Sorting Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dev.olaore.selection_sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SelectionSortReview" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.olaore.selection_sort.SelectionSortReview" />
-      <module name="Sorting Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dev.olaore.selection_sort.*" />
+          <option name="PATTERN" value="dev.olaore.algorithms_reviews.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,19 +201,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SelectionSort" />
-      <item itemvalue="Application.SelectionSortReview" />
-      <item itemvalue="Application.SelectionSortDescending" />
       <item itemvalue="Application.InsertionSort" />
       <item itemvalue="Application.InsertionSortReview" />
+      <item itemvalue="Application.BubbleSort" />
+      <item itemvalue="Application.SelectionSort" />
+      <item itemvalue="Application.InsertionSort (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InsertionSort (1)" />
+        <item itemvalue="Application.SelectionSort" />
+        <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.InsertionSortReview" />
         <item itemvalue="Application.InsertionSort" />
-        <item itemvalue="Application.SelectionSortDescending" />
-        <item itemvalue="Application.SelectionSortReview" />
-        <item itemvalue="Application.SelectionSort" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +234,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25455928" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -296,7 +309,35 @@
     <entry file="file://$PROJECT_DIR$/src/dev/olaore/insertion_sort/InsertionSortReview.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="254">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dev/olaore/utils/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="69" selection-start-line="4" selection-start-column="69" selection-end-line="4" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dev/olaore/algorithms_reviews/BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dev/olaore/algorithms_reviews/SelectionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" column="19" lean-forward="true" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dev/olaore/algorithms_reviews/InsertionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
         </state>
       </provider>
     </entry>
