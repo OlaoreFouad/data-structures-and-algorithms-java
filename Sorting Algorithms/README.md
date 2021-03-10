@@ -9,3 +9,7 @@ _The Selection sort algorithm works in a way similar to the bubble sort, it has 
 ## Insertion Sort
 
 _The insertion sort takes a different approach by sorting the array from the right to left. It recognises the element at the start of the array to be part of a "sorted partition", the element at index 1 is the first unsorted idnex and each element is taken and compared to the elements inside the sorted partition. When an appropriate position is found (left <=) (right >), elements in the sorted partition are shifted to the right increasing the sorted partition and reducing the unsorted partition. This goes on until the final element is shifted into it's own position._
+
+## Shell Sort
+
+_The Shell sort algorithm is a variation of the insertion sort algorithm. It works with switching smaller values with larger ones towards the right of the array but in this usecase, it deals with a much larger gap value instead of 1. The gap value is usually derived by dividing the length of the array by 2. Setting the origin of the iteration to the element located at gap position, and comparing it with the element that's gap positions behind. Comparisons lead to switching if the element in front is smaller and larger elements are moved towards the right. After one iteration, the gap is further divided by 2 and this goes on until the gap value hits 1 and an insertion sort is essentially done. The time complexity for the worst case scenario is O(n squared). It is an in-place (no extra memory) and unstable algorithm_

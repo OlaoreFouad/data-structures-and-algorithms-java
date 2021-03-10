@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="00feb518-4991-44f9-aa85-4dd6e25c0609" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,10 +15,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/dev/olaore/shell_sort/ShellSort.java">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="522">
+              <caret line="14" column="825" selection-start-line="14" selection-start-column="825" selection-end-line="14" selection-end-column="825" />
             </state>
           </provider>
         </entry>
@@ -51,6 +52,8 @@
         <option value="$PROJECT_DIR$/src/dev/olaore/algorithms_reviews/InsertionSort.java" />
         <option value="$PROJECT_DIR$/src/dev/olaore/algorithms_reviews/InsertionReview1.java" />
         <option value="$PROJECT_DIR$/src/dev/olaore/shell_sort/ShellSort.java" />
+        <option value="$PROJECT_DIR$/src/dev/olaore/algorithms_reviews/ShellSort.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -67,36 +70,10 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Course" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Sorting Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sorting Algorithms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sorting Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sorting Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sorting Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sorting Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="olaore" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1614769923239" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1615371025030" />
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RunDashboard">
@@ -111,20 +88,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ShellSort">
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.olaore.algorithms_reviews.BubbleSort" />
-      <module name="Sorting Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dev.olaore.algorithms_reviews.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ShellSort (1)">
     <configuration name="InsertionReview1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dev.olaore.algorithms_reviews.InsertionReview1" />
       <module name="Sorting Algorithms" />
@@ -164,6 +128,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ShellSort (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.olaore.algorithms_reviews.ShellSort" />
+      <module name="Sorting Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.olaore.algorithms_reviews.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ShellSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dev.olaore.shell_sort.ShellSort" />
       <module name="Sorting Algorithms" />
@@ -178,19 +155,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BubbleSort" />
-      <item itemvalue="Application.SelectionSort" />
-      <item itemvalue="Application.InsertionSort (1)" />
       <item itemvalue="Application.InsertionReview1" />
+      <item itemvalue="Application.InsertionSort (1)" />
+      <item itemvalue="Application.SelectionSort" />
       <item itemvalue="Application.ShellSort" />
+      <item itemvalue="Application.ShellSort (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShellSort (1)" />
         <item itemvalue="Application.ShellSort" />
         <item itemvalue="Application.InsertionReview1" />
         <item itemvalue="Application.InsertionSort (1)" />
         <item itemvalue="Application.SelectionSort" />
-        <item itemvalue="Application.BubbleSort" />
       </list>
     </recent_temporary>
   </component>
@@ -211,13 +188,16 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25455928" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2636778" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Anonymous Apex" />
+      <window_info anchor="bottom" id="Log Analyzer" />
+      <window_info anchor="bottom" id="SOQL Query" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.39864865" />
@@ -327,8 +307,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dev/olaore/shell_sort/ShellSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dev/olaore/algorithms_reviews/ShellSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="14" column="825" selection-start-line="14" selection-start-column="825" selection-end-line="14" selection-end-column="825" />
         </state>
       </provider>
     </entry>
