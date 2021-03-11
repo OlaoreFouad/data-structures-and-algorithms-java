@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="00feb518-4991-44f9-aa85-4dd6e25c0609" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,10 +14,14 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
+        <entry file="file://$PROJECT_DIR$/src/dev/olaore/concepts/Recursion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="14" column="825" selection-start-line="14" selection-start-column="825" selection-end-line="14" selection-end-column="825" />
+            <state relative-caret-position="171">
+              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+              <folding>
+                <element signature="e#99#100#0" expanded="true" />
+                <element signature="e#120#121#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -54,6 +57,7 @@
         <option value="$PROJECT_DIR$/src/dev/olaore/shell_sort/ShellSort.java" />
         <option value="$PROJECT_DIR$/src/dev/olaore/algorithms_reviews/ShellSort.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/dev/olaore/concepts/Recursion.java" />
       </list>
     </option>
   </component>
@@ -70,10 +74,36 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Course" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Sorting Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sorting Algorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sorting Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sorting Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sorting Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sorting Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="olaore" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1615371025030" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1615496415526" />
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RunDashboard">
@@ -88,7 +118,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ShellSort (1)">
+  <component name="RunManager" selected="Application.Recursion">
     <configuration name="InsertionReview1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dev.olaore.algorithms_reviews.InsertionReview1" />
       <module name="Sorting Algorithms" />
@@ -115,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.olaore.algorithms_reviews.SelectionSort" />
+    <configuration name="Recursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.olaore.concepts.Recursion" />
       <module name="Sorting Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dev.olaore.algorithms_reviews.*" />
+          <option name="PATTERN" value="dev.olaore.concepts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,17 +187,17 @@
     <list>
       <item itemvalue="Application.InsertionReview1" />
       <item itemvalue="Application.InsertionSort (1)" />
-      <item itemvalue="Application.SelectionSort" />
       <item itemvalue="Application.ShellSort" />
       <item itemvalue="Application.ShellSort (1)" />
+      <item itemvalue="Application.Recursion" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Recursion" />
         <item itemvalue="Application.ShellSort (1)" />
         <item itemvalue="Application.ShellSort" />
         <item itemvalue="Application.InsertionReview1" />
         <item itemvalue="Application.InsertionSort (1)" />
-        <item itemvalue="Application.SelectionSort" />
       </list>
     </recent_temporary>
   </component>
@@ -195,21 +225,21 @@
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Anonymous Apex" />
-      <window_info anchor="bottom" id="Log Analyzer" />
-      <window_info anchor="bottom" id="SOQL Query" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.39864865" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39864865" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.6993243" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.69814503" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Anonymous Apex" order="12" />
+      <window_info anchor="bottom" id="Log Analyzer" order="13" />
+      <window_info anchor="bottom" id="SOQL Query" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -320,9 +350,26 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="14" column="814" selection-start-line="14" selection-start-column="814" selection-end-line="14" selection-end-column="814" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dev/olaore/concepts/Recursion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="14" column="825" selection-start-line="14" selection-start-column="825" selection-end-line="14" selection-end-column="825" />
+        <state relative-caret-position="171">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding>
+            <element signature="e#99#100#0" expanded="true" />
+            <element signature="e#120#121#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

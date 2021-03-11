@@ -13,3 +13,7 @@ _The insertion sort takes a different approach by sorting the array from the rig
 ## Shell Sort
 
 _The Shell sort algorithm is a variation of the insertion sort algorithm. It works with switching smaller values with larger ones towards the right of the array but in this usecase, it deals with a much larger gap value instead of 1. The gap value is usually derived by dividing the length of the array by 2. Setting the origin of the iteration to the element located at gap position, and comparing it with the element that's gap positions behind. Comparisons lead to switching if the element in front is smaller and larger elements are moved towards the right. After one iteration, the gap is further divided by 2 and this goes on until the gap value hits 1 and an insertion sort is essentially done. The time complexity for the worst case scenario is O(n squared). It is an in-place (no extra memory) and unstable algorithm_
+
+## Recursion
+
+_Recursion refers to the concept of a method calling itself. Usually, when a method calls itself, that call is added to the call stack and is resolved down the call stack. The returned values are then propagated back to the originally calling method. This concept is very useful when iterative operations are to be improved._
