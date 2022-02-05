@@ -1,8 +1,8 @@
-package dev.olaore.algorithms_reviews;
+package dev.olaore.reviews.algorithms_reviews;
 
 import dev.olaore.utils.Utils;
 
-public class InsertionReview1 {
+public class InsertionSort {
 
     public static void main(String[] args) {
 
@@ -21,8 +21,8 @@ public class InsertionReview1 {
 
         }
 
-        for (int number: array) {
-            System.out.print(number + " ");
+        for (int n: array) {
+            System.out.print(n + " ");
         }
 
     }

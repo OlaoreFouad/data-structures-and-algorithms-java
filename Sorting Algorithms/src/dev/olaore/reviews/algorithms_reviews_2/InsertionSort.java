@@ -1,4 +1,4 @@
-package dev.olaore.algorithms_reviews_2;
+package dev.olaore.reviews.algorithms_reviews_2;
 
 import dev.olaore.utils.Utils;
 
