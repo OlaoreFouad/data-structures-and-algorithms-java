@@ -11,10 +11,11 @@ public class ShellSort {
 
             for (int i = gap; i < numbers.length; i++) {
 
-                int newElement = numbers[i];
                 int j = i;
 
-                while(j >= gap && newElement < numbers[j - gap]) {
+                int newElement = numbers[j];
+
+                while (j > 0 && numbers[j - gap] > newElement) {
                     numbers[j] = numbers[j - gap];
                     j -= gap;
                 }
@@ -25,10 +26,13 @@ public class ShellSort {
 
         }
 
-        for (int number: numbers) {
-            System.out.print(number + " ");
-        }
+        print(numbers);
+    }
 
+    private static void print(int[] nums) {
+        for (int n: nums) {
+            System.out.println(n);
+        }
     }
 
 }
